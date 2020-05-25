@@ -1,0 +1,12 @@
+
+GETAVERAGE
+const arr = [90, 90, 75, 95, 50, 85, 70]
+
+let total = 0;
+
+for(var i = 0; i < arr.length; i++) {
+    total += arr[i];
+}
+const avg = total / arr.length;
+
+console.log(avg)
